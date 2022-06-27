@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: gray;
+    height: 50px;
+    
+}
+
+main{
+    background-color: beige;
+}
+
+footer{
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+}
