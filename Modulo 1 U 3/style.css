@@ -11,7 +11,15 @@ header{
 }
 
 main{
-    background-color: beige;
+    background-color:darkseagreen
+
+}
+
+Img{
+height: 500px;
+width: 50%;
+text-align: center;
+
 }
 
 footer{
