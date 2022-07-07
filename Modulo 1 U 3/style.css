@@ -11,7 +11,8 @@ header{
 }
 
 main{
-    background-color:darkseagreen
+    background-color:darkseagreen;
+    padding: 10px;
 
 }
 
@@ -19,7 +20,8 @@ Img{
 height: 500px;
 width: 50%;
 text-align: center;
-
+border-style: solid;
+border-color: black;
 }
 
 footer{
