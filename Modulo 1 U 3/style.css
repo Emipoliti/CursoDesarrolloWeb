@@ -42,11 +42,15 @@ border: solid gray 1px;
 margin: 50px 100px;
 height: 400px;
 width: 450px;
-border: solid gray 1px;
 border-radius: 1px;
 float: right;
+transition: ease;
+}
 
-
+.constaisner:hover {
+    background-color: gray;
+    border: ridge gray 2px;
+    border-radius: 10px;
 }
 
 .constaisner h3 {
@@ -80,6 +84,75 @@ footer a{
  color: white;
  margin: 0;
  padding: 0 10px;
+ text-decoration: none;
+}
+
+footer a:hover{
+    color: gray;
+}
+
+.experiencias{
+background-color: beige;
+height: 400px;
+width: 430px;
+margin:  0px 5px 0px 10px;
+padding: 0px 20px;
+display: inline-block;
+}
+
+.experiencias li{
+    margin-top: 30px;
+    padding: 5px 0px;
+}
+.experiencias h3 {
+    background-color: #8bc99a;
+}
+
+.estudios{
+    background-color: beige;
+    height: 400px;
+    width: 430px;
+    margin: 0px 5px;
+    padding: 0px 20px;
+    display: inline-block; 
+}
+
+.estudios li{
+    margin-top: 30px;
+    padding: 5px 0px;
+}
+
+.estudios h3{
+    background-color: #8bc99a;
+}
+
+.hobbies{
+    background-color: beige;
+    height: 400px;
+    width: 430px;
+    margin: 0px 10px 0px 5px;
+    padding: 0px 20px;
+    display: inline-block;
+}
+
+.hobbies p{
+    margin-top: 30px;
+    padding: 5px 0px;
+}
+.hobbies h3{
+    background-color: #8bc99a;
 }
 
 
+.forms{
+    background-color: #8bc99a;
+    
+}
+
+.forms a{
+    color: black;
+}
+
+.forms a:hover{
+    color: blueviolet;
+}
