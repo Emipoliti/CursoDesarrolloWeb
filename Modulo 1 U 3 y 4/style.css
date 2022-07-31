@@ -8,7 +8,7 @@ html{
     
 }
 
-header{
+header h2{
     background-color: #364552;
     height: 100px;
     text-align: center;
@@ -17,10 +17,10 @@ header{
     
 }
 
-
+    
 
 #inicio {
-padding-top: 30px;
+    padding-top: 30px;
 }
 
 
@@ -30,22 +30,22 @@ main{
 }
 
 Img{
-height: 400px;
-width: 400px;
-margin: 80px 100px;
-border: inset #8bc99a 3px;
-border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    margin: 80px 100px;
+    border: inset #8bc99a 3px;
+    border-radius: 50%;
 }
 
 
 
 .constaisner {
-margin: 80px 100px;
-height: 400px;
-width: 450px;
-border-radius: 1px;
-float: right;
-cursor: pointer;
+    margin: 80px 100px;
+    height: 400px;
+    width: 450px;
+    border-radius: 1px;
+    float: right;
+    cursor: pointer;
 }
 
 .constaisner:hover {
@@ -75,41 +75,62 @@ cursor: pointer;
 footer{
     background-color: #1e1e1bff;
     color: white;
-    height: 200px;
+    height: 270px;
     text-align: center;
     padding: 5px;
     
 }
 
-footer a{
- color: white;
- margin: 0;
- padding: 0 10px;
- text-decoration: underline;
+.teclas a{
+    color: white;
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: underline;
 }
 
 footer a:hover{
     color: gray;
 }
 
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+      
+}
+
+.logos img{
+   height: 70px;
+   width: 70px;
+   padding: 0px;
+   
+   
+}
+
 footer img{
-    width: 50px;
-    height: 50px;
-    display: inline;
+
     border-radius: 50%;
-    margin-top: 50px;
     
     }
 
+.caja{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
 .experiencias{
-background-color: beige;
-height:400px;
-width: 425px;
-border: solid gray 1px;
-margin: 0px 5px 0px 10px;
-padding: 0px 20px;
-display: inline-block;
-cursor: pointer;
+     background-color: beige;
+    height:400px;
+    width: 425px;
+    border: solid gray 1px;
+    margin: 0px 5px 0px 10px;
+    padding: 0px 20px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .experiencias:hover{
