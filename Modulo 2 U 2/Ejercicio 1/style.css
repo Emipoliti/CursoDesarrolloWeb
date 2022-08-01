@@ -10,6 +10,7 @@ html{
     float: right;
     margin: 0;
     padding: 0;
+    
 
 }
 
@@ -19,6 +20,9 @@ html{
     background-color: red;
     border: solid black 1px;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .verde{
@@ -26,6 +30,9 @@ html{
     width: 200px;
     background-color: green;
     border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .azul{
@@ -33,5 +40,12 @@ html{
     width: 200px;
     background-color: blue;
     border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#cajas p{
+    color: white;
+    font-size: x-large;
+}

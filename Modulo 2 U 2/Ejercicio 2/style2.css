@@ -15,7 +15,7 @@ main{
 }
 #cajas{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     flex-wrap: nowrap;
     align-items: center;
