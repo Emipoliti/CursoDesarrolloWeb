@@ -1,0 +1,37 @@
+html{
+    border: solid black 1px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+#cajas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    float: right;
+    margin: 0;
+    padding: 0;
+
+}
+
+.roja{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: solid black 1px;
+    margin: 0;
+}
+
+.verde{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: solid black 1px;
+}
+
+.azul{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: solid black 1px;
+}
+
