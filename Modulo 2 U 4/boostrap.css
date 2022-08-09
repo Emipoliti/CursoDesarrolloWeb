@@ -1,0 +1,21 @@
+
+h1{
+    text-align: center;
+}
+.col{
+    height: 200px;
+    background-color: blue;
+    border: solid 1px black;
+    color: white;
+}
+
+.accordion-body{
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
