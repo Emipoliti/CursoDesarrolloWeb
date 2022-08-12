@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: darkgreen;
+    background-color: #d06d31;
     padding: 16px 0;
     margin-left: 0;
 }
@@ -30,7 +30,7 @@ header img{
 }
 
 nav{
-    background-color: rgb(78, 202, 78);
+    background-color: #f38c4d;
 }
 
 nav ul{
@@ -64,5 +64,59 @@ footer{
 }
 
 nav ul li a.activo{
-    background-color: green;
+    background-color: #f36a0b;
 }
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.avion img{
+    height: 450px;
+    width: 950px;
+}
+
+h2{
+    color: #d06d31;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios{
+    width: 25%;
+
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 15px;
+}
+
+.testimonios{
+    background-color: #ccc;
+    padding: 16px;
+}
+
+.testimonios .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonios .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0; 
+}
+
