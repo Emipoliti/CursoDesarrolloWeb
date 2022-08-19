@@ -8,8 +8,7 @@ body{
 header{
     background-color: #07273b;
     padding: 16px 0;
-    margin-left: 0;
-   
+    margin 0;
 }
 
 header h1{
@@ -18,16 +17,22 @@ header h1{
     font-weight: 100px;
     font-style: italic;
     display: inline-block;
-    position: relative;
-    bottom: 35px;
-    margin-left: 10px;
-}
-
+    position:relative;
+    bottom:35px;
+    left: 5px;
+    }
+    
 header img{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin-left: 10px;
+} 
+
+.titulo{
+    margin: 0;
+    position: relative;
+    align-items: center;
 }
 
 nav{
@@ -76,18 +81,34 @@ main{
     height: 200px;
     width: 250px;
     margin: 20px 0 10px 10px;
+    border: solid 2px dimgray;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
 }
 
 .usados img{
     height: 200px;
     width: 250px;
     margin: 20px 0 10px 10px;
+    border: solid 2px dimgray;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .motos img{
     height: 200px;
     width: 250px;
     margin: 20px 0 10px 10px;
+    border: solid 2px dimgray;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 main h2{

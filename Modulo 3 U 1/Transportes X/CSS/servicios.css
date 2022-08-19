@@ -8,8 +8,7 @@ body{
 header{
     background-color: #07273b;
     padding: 16px 0;
-    margin-left: 0;
-    
+    margin 0;
 }
 
 header h1{
@@ -18,16 +17,22 @@ header h1{
     font-weight: 100px;
     font-style: italic;
     display: inline-block;
-    position: relative;
-    bottom: 35px;
+    position:relative;
+    bottom:35px;
+    left: 5px;
+    }
+    
+header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     margin-left: 10px;
-}
+} 
 
 .titulo{
-    display: flex;
-    justify-content: left;
+    margin-top: 2px;
+    position: static;
     align-items: center;
-    margin-left: 200px;
 }
 
 .titulo h1{
@@ -41,6 +46,7 @@ header img{
     width: 100px;
     border-radius: 50%;
     margin-left: 10px;
+
 }
 
 nav{
