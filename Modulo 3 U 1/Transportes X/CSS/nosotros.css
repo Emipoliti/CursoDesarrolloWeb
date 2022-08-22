@@ -60,6 +60,7 @@ nav ul li a:hover{
     background-color: rgba(0,0,0,0.3);
 }
 
+
 footer{
     background-color: #ccc;
     clear: both;
@@ -80,7 +81,6 @@ nav ul li a.activo{
 
 .historia{
     font-size: 12px;
-   
 }
 
 .historia h2{
@@ -108,14 +108,15 @@ nav ul li a.activo{
     text-align: center;
     padding: 13px;
     box-sizing: border-box;
+    cursor: pointer;
 }
+
 
 .persona img{
     width: 80px;
     height: 80px;
     border-radius: 50%;
     max-width: 60%;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .persona h5, .persona h6{

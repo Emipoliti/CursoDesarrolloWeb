@@ -73,7 +73,7 @@ nav ul li a.activo{
 }
 
 main{
-    background-color: #0077a2;
+    background-color: beige;
 
 }
 
@@ -99,6 +99,8 @@ main{
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+
 
 .motos img{
     height: 200px;
